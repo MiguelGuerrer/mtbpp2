@@ -7,8 +7,8 @@ router.get('/login', userController.login);
 router.get('/miPerfil', userController.miPerfil);
 router.get('/registracion', userController.registracion);
 router.get('/editarPerfil', userController.editarPerfil);
-router.get('/detalleUsuario/:id', userController.detalleUsuario);
-router.post('/registrarUsuario', userController.registrarUsuario);
+
+router.get('/deralleUsuario/:id', userController.editarPerfil);
 
 
 
