@@ -22,6 +22,10 @@ const userController = {
       registracion: function(req, res) {
         res.render('registracion');
       },
+      
+      registrarUsuario: function(req, res) {
+        res.redirect('/')
+      },
 }
 
 //exportaciones
