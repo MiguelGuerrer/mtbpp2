@@ -3,9 +3,7 @@ var router = express.Router();
 const indexController = require ('../controladores/indexcontroller')
 
 /* GET home page. */
-
 router.get('/', indexController.home);
-
-router.get('/busqueda/:id', indexController.busqueda);
+router.get('/busqueda', indexController.busqueda);
 
 module.exports = router;
