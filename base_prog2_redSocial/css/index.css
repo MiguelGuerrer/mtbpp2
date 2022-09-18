@@ -104,6 +104,7 @@ main {
 .post-reacciones,
 .post-comentarios {
     padding: 10px 15px
+    
 }
 .info-usuario {
     display: flex;
